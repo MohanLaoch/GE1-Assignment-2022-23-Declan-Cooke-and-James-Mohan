@@ -21,7 +21,7 @@ Discover an entire planet through your fingertips! New-age technology allows us 
 | (To be added) | (To be added) |
 
 # References
-* (To be added)
+- (To be added)
 
 # What we are most proud of in the Assignment
 (To be added)
