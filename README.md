@@ -23,10 +23,10 @@ Discover an entire planet through your fingertips! Through the magic of virtual 
 # References
 * (To be added)
 
-# What I am most proud of in the Assignment
+# What we are most proud of in the Assignment
 (To be added)
 
-# What I Learned
+# What we Learned
 (To be added)
 
 # Proposal
