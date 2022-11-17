@@ -1,6 +1,6 @@
 ## GE1-Assignment-2022-23-Declan-Cooke-and-James-Mohan
 
-# The Planet of Music
+# Planet Music
 
 Names: Declan Cooke | James Mohan
 
