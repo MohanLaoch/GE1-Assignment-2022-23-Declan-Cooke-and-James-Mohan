@@ -16,12 +16,17 @@ Discover an entire planet through your fingertips! Through the magic of virtual 
 (To be added)
 
 # List of Classes/Assets in the Project
-(To be added)
+| Class/asset | Source |
+|-----------|-----------|
+| (To be added) | (To be added) |
 
 # References
 * (To be added)
 
 # What I am most proud of in the Assignment
+(To be added)
+
+# What I Learned
 (To be added)
 
 # Proposal
