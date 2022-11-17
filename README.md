@@ -16,7 +16,7 @@ Discover an entire planet through your fingertips! Through the magic of virtual 
 (To be added)
 
 # List of Classes/Assets in the Project
-| Class/asset | Source |
+| **Class/Asset** | **Source** |
 |-----------|-----------|
 | (To be added) | (To be added) |
 
