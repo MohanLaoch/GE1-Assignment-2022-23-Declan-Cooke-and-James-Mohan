@@ -2,13 +2,9 @@
 
 # The Planet of Music
 
-Name: Declan Cooke
+Names: Declan Cooke | James Mohan
 
-Name: James Mohan
-
-Student Number: 
-
-Student Number: C20305011
+Student Numbers: C20305011
 
 
 Video: 
