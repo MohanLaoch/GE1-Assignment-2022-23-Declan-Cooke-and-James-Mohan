@@ -10,7 +10,7 @@
 (To be added)
 
 # Description of the Project
-Discover an entire planet through your fingertips! New-age technology allows us to examine infinite worlds from the press of a button. Through the magic of virtual reality reach out and touch a small planet replica to be instantly transported to a vibrant environment that reacts to the music around you! Explore the vast colourful landscape and vibe to the cool tunes!
+Discover an entire planet through your fingertips! New-age technology allows us to examine infinite worlds from the press of a button. The Shrinkinator 5000 allows someone to shrink down to as small as they wish to view the world in a different perspective. What may seem like an ordinary golf ball can become an entire planet when one is shrunk down to the molecular level. In our project you can experience this futuristic technology by shrinking down and exploring microscopic oddities not visible to the naked eye.  Once shrunk down, the environment around you will react to the music . Enjoy the vast colourful landscape of these "planets" and vibe to the cool tunes!
 
 # Instructions for Use
 (To be added)
