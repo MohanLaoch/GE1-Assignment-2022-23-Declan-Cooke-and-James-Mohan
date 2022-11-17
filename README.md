@@ -2,9 +2,9 @@
 
 # Planet Music
 
-##Names: Declan Cooke | James Mohan
+## Names: Declan Cooke | James Mohan
 
-##Student Numbers: C20465442 | C20305011
+## Student Numbers: C20465442 | C20305011
 
 ##Video: 
 (To be added)
