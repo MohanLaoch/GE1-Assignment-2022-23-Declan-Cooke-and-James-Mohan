@@ -10,6 +10,7 @@
 (To be added)
 
 # Description of the Project
+Discover an entire planet through your fingertips! Through the magic of virtual reality reach out and touch a small planet replica to be instantly transported to a vibrant environment that reacts to the music around you! Explore the vast colourful landscape and vibe to the cool tunes!
 
 # Instructions for Use
 (To be added)
