@@ -2,11 +2,11 @@
 
 # Planet Music
 
-#### Names: Declan Cooke | James Mohan
+### Names: Declan Cooke | James Mohan
 
-#### Student Numbers: C20465442 | C20305011
+### Student Numbers: C20465442 | C20305011
 
-#### Video: 
+### Video: 
 (To be added)
 
 # Description of the Project
@@ -19,3 +19,9 @@
 
 # References
 * (To be added)
+
+# What I am most proud of in the Assignment
+(To be added)
+
+#Proposal
+(To be added)
