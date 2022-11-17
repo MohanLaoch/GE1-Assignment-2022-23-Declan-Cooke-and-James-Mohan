@@ -34,4 +34,6 @@ Discover an entire planet through your fingertips! New-age technology allows us 
 - These gameobjects will react to  music using the transform.localScale API, creating a new Vector3 and passing through the volume variables of the music.
 - We will also use perlin noise on these gameobjects to make them feel more vibrant and alive.
 - transform.local scale will also be used to shrink the player down to allow them to explore the "planet".
-- The player can move around the world and interact with the gameobjectsusing unitys new input system.
+- The player can move around the world and interact with the gameobjects using unitys new input system.
+- We will implement music using unitys audio library.
+- The worlds gameobjects will have a random selection of colours through the use of nested for loops to apply new materials onto them.
