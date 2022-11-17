@@ -30,4 +30,6 @@ Discover an entire planet through your fingertips! New-age technology allows us 
 (To be added)
 
 # Proposal
-(To be added)
+- Using PrBbuilder in unity we will create colourful trees, plants and flowers.
+- These gameobjects will react to  music using the transform.localScale API, creating a new Vector3 and passing through the volume variables of the music.
+- We will also use perlin noise on these gameobjects to make them feel more vibrant and alive.
