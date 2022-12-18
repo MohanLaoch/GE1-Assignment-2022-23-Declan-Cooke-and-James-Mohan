@@ -132,6 +132,7 @@ Material:
     - _Color: {r: 0.21306516, g: 0.29018444, b: 0.7169812, a: 1}
     - _Color_1: {r: 0.39637318, g: 0.16789776, b: 0.7264151, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ScrollingSpeed: {r: 0.01, g: 0.01, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Tilling: {r: 8, g: 4, b: 0, a: 0}
   m_BuildTextureStacks: []
