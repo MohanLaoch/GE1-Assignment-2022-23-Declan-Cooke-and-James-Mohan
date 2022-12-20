@@ -47,7 +47,7 @@ Having the opportunity to work on the project with a partner enabled me work on 
 
 
 # What we Learned
-(To be added)
+There were a plethora of features in our project that we had learned from the various classes this semester. The environment responding to the music in game was one of the most important things we had learned from class, as it made our scene come to life. We used what we learned about transforms and quaternions to rotate and move objects in the scene. There was also a lot of self research involved in order to get the planetery gravity working as well as the virtual reality character controller. 
 
 # Proposal
 - Using ProBbuilder in unity we will create colourful trees, plants and flowers.
