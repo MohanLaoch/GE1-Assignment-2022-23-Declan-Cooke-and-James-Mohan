@@ -827,9 +827,13 @@ GameObject:
   m_Component:
   - component: {fileID: 6894772863501522373}
   - component: {fileID: 628187712}
+  - component: {fileID: 687789667}
+  - component: {fileID: 8853607412812673584}
+  - component: {fileID: 2165441448828968018}
+  - component: {fileID: 4615874206272498430}
   m_Layer: 0
   m_Name: Bush
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -843,7 +847,7 @@ Transform:
   m_GameObject: {fileID: 6894772863501522374}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.37, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6743300217743124825}
@@ -865,7 +869,7 @@ Transform:
   - {fileID: 6894772864792165173}
   - {fileID: 6894772864628834997}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &628187712
 MonoBehaviour:
@@ -897,6 +901,72 @@ MonoBehaviour:
   - {r: 0.38120267, g: 0.10194911, b: 0.745283, a: 0}
   - {r: 0.7924528, g: 0.09344961, b: 0.7432335, a: 0}
   - {r: 0.09411762, g: 0.7921569, b: 0.6229382, a: 0}
+--- !u!114 &687789667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6894772863501522374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9df37fabdd756e049a5507508ef658dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attractor: {fileID: 0}
+--- !u!54 &8853607412812673584
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6894772863501522374}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &2165441448828968018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6894772863501522374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ccb8fb31cd0cc44fac1d75e8d286434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scale: 5
+  scaleObjects:
+  - {fileID: 6894772863093232593}
+  - {fileID: 6894772863850781752}
+  - {fileID: 6894772863275407525}
+  - {fileID: 6894772862923414091}
+  - {fileID: 6894772863501152978}
+  - {fileID: 6894772863601919123}
+  - {fileID: 6894772864678986101}
+  - {fileID: 6894772863485546426}
+  - {fileID: 6894772864792165174}
+  - {fileID: 6894772864628834998}
+--- !u!65 &4615874206272498430
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6894772863501522374}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.8698246, y: 1.3684409, z: 1.8030605}
+  m_Center: {x: -0.2111851, y: 0.007737756, z: -0.40153027}
 --- !u!1 &6894772863601919123
 GameObject:
   m_ObjectHideFlags: 0
