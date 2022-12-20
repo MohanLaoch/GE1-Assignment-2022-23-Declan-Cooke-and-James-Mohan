@@ -252,7 +252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a316156439cfea478779ba453e28c42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scale: 15
+  scale: 25
   scaleObjects:
   - {fileID: 4241683058165070954}
   - {fileID: 1927914914521035389}
