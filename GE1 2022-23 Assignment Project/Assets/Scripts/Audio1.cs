@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class AudioTest : MonoBehaviour
+public class Audio1 : MonoBehaviour
 {
     public float scale = 10;
 
