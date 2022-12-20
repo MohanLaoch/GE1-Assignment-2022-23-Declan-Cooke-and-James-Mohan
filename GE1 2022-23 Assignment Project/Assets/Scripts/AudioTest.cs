@@ -6,6 +6,7 @@ using UnityEngine.UIElements;
 public class AudioTest : MonoBehaviour
 {
     public float scale = 10;
+    public Transform TestCloud;
     List<GameObject> elements = new List<GameObject>();
     // Use this for initialization
     void Start()
@@ -18,8 +19,8 @@ public class AudioTest : MonoBehaviour
 
     void CreateVisualisers()
     {
-        /*
-        float theta = (Mathf.PI * 2.0f) / (float)AudioManager.frameSize;
+        
+      /*  float theta = (Mathf.PI * 2.0f) / (float)AudioManager.frameSize;
         for (int i = 0; i < AudioManager.frameSize; i++)
         {
             Vector3 p = new Vector3(
@@ -46,15 +47,12 @@ public class AudioTest : MonoBehaviour
     
     void Update()
     {
-        for (int i = 0; i < elements.Count; i++)
+        for (int i = 0; i < 10; i++)
         {
-            elements[i].transform.localScale = new Vector3(1, 1 + AudioManager.Instance.spectrum[i] * scale, 1);
-        }
-       /* for (int i = 0; i < elements.Count; i++)
-        {
-
+            //elements[i].transform.localScale = new Vector3(1, 1 + AudioManager.Instance.spectrum[i] * scale, 1);
+            TestCloud.transform.localScale = new Vector3 (1, 1 + AudioManager.Instance.spectrum[i] * scale, 1);
+    }
         
-            transform.localScale = new Vector3(1, AudioManager.Instance.spectrum[i] * scale, 1);
-    }*/
-}
+
+    }
 }
