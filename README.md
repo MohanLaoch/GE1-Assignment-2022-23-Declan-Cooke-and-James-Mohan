@@ -3,8 +3,8 @@
 # Planet Music
 
 ### Names & Student Numbers
-####Declan Cooke | C20465442
-####James Mohan | C20305011
+#### Declan Cooke | C20465442
+#### James Mohan | C20305011
 
 ### Video: 
 (To be added)
@@ -28,10 +28,10 @@ When you run the project, an array of random game objects such as trees, bushes 
 - (To be added)
 
 # What we are most proud of in the Assignment
-###Declan: 
+### Declan: 
 While this project was a lot of fun to work on, especially with a partner, it did come with its challenges. One of the more difficult aspects of it was the simulated gravity around the planet and making sure the rotation of other objects in the scene matches the curvature of the globe. Since I had to disable the regular unity gravity that comes with the rigidbody component, I had to use the rigidbody.addforce function to simulate what gravity would be like on a planet. 
 
-###James: 
+### James: 
 Having the opportunity to work on the project with a partner enabled me work on things that I hadn’t done before. I implemented VR into the project, which was a first for me. I got it working with little to no difficulty which made my very happy. The other thing I was most proud of in the assignment was getting the ObjectSpawner script to work. At first, we had hand-placed object in the scene, but during the project we realised having random spawning would be fair more satisfying. After getting it to work I am proud of my understanding in instantiating gameobjects.
 
 
