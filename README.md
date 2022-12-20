@@ -2,7 +2,7 @@
 
 # Planet Music
 
-### Names & Student Numbers
+### Names & Student Numbers:
 #### Declan Cooke | C20465442
 #### James Mohan | C20305011
 
@@ -34,7 +34,9 @@ When you run the project, an array of random game objects such as trees, bushes 
 | PlayerControl | Modified from [reference](https://www.youtube.com/watch?v=1LtePgzeqjQ) |
 
 # References
-- (To be added)
+- [Music](https://www.youtube.com/watch?v=5PNbEfLIEDs)
+- [Skybox](https://www.youtube.com/watch?v=yw2J9NWRdow)
+- [VR Tutorial](https://www.youtube.com/watch?v=yxMzAw2Sg5w) 
 
 # What we are most proud of in the Assignment
 ### Declan: 
