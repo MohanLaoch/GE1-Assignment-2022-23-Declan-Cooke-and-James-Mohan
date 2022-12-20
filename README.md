@@ -21,8 +21,17 @@ When you run the project, an array of random game objects such as trees, bushes 
 # List of Classes/Assets in the Project
 | **Class/Asset** | **Source** |
 |-----------|-----------|
-| Audio 1, 2 & 3 | Modified from |
-| AudioManager | Modified from |
+| Audio 1, 2 & 3.cs | Modified from [reference](https://github.com/skooter500/GE1-2022-2023/blob/master/GE1%20Examples%202022/Assets/AudioAnalyzer.cs) |
+| AudioManager.cs | Modified from [reference](https://github.com/skooter500/GE1-2022-2023/blob/master/GE1%20Examples%202022/Assets/AudioViz1.cs) |
+| Billboard.cs | From [reference](https://youtu.be/BLfNP4Sc_iA?t=1015) |
+| Bird | Self written |
+| CloudMoveTest | Self written |
+| ColourChange | From [reference](https://www.youtube.com/watch?v=C_f2ChrcSSM) |
+| DetectVR | From [reference](https://www.youtube.com/watch?v=ImPZyIM6XNs) |
+| GravityAttractor | From [reference](https://www.youtube.com/watch?v=gHeQ8Hr92P4&ab_channel=SebastianLague) |
+| GravityBody | From [reference](https://www.youtube.com/watch?v=gHeQ8Hr92P4&ab_channel=SebastianLague) |
+| ObjectSpawner | Self Written |
+| PlayerControl | Modified from [reference](https://www.youtube.com/watch?v=1LtePgzeqjQ) |
 
 # References
 - (To be added)
