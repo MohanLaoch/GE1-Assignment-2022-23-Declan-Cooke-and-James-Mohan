@@ -62,10 +62,10 @@ public class AudioManager : MonoBehaviour
 
         while (Microphone.GetPosition(selectedDevice) == 0)
         {
-            Debug.Log("Yielding");
+            //Debug.Log("Yielding");
             yield return null;
         }
-        Debug.Log("Playing");
+        //Debug.Log("Playing");
         a.Play();
     }
 

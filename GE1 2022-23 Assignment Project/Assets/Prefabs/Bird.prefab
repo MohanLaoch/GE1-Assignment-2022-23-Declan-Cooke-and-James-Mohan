@@ -386,7 +386,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 1159
+  m_VersionIndex: 1168
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -482,7 +482,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!1 &2144082298231580541
@@ -500,7 +500,7 @@ GameObject:
   - component: {fileID: 2144082298231580537}
   - component: {fileID: 2144082298231580538}
   - component: {fileID: 2144082298231580539}
-  - component: {fileID: 2144082298231580540}
+  - component: {fileID: 983655084}
   m_Layer: 0
   m_Name: Bird
   m_TagString: Untagged
@@ -517,12 +517,12 @@ Transform:
   m_GameObject: {fileID: 2144082298231580541}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.27, y: 28.58, z: -6.68}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.28405, y: 0.28405, z: 0.28405}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2144082298299047895}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2144082298231580534
 MeshFilter:
@@ -629,7 +629,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 1
---- !u!114 &2144082298231580540
+--- !u!114 &983655084
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -638,10 +638,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 2144082298231580541}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a316156439cfea478779ba453e28c42, type: 3}
+  m_Script: {fileID: 11500000, guid: faf054593590c0b4a9803501640aa5b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scale: 50
+  meshRenderer:
+  - {fileID: 2144082298299047898}
+  - {fileID: 2144082298521418021}
+  - {fileID: 2144082298992128848}
+  - {fileID: 2144082298992128848}
+  - {fileID: 2144082298180000455}
+  lerpTime: 0.75
+  lerpColors:
+  - {r: 0.4074385, g: 0.11863652, b: 0.8113208, a: 0}
+  - {r: 0.707096, g: 0.115877524, b: 0.7924528, a: 0}
+  - {r: 0.8584906, g: 0.09313814, b: 0.6229908, a: 0}
+  - {r: 0.85882354, g: 0.13681456, b: 0.09411765, a: 0}
 --- !u!1 &2144082298299047902
 GameObject:
   m_ObjectHideFlags: 0
@@ -1433,7 +1444,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 1029
+  m_VersionIndex: 1038
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -1531,7 +1542,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!114 &2144082298299047901
@@ -1761,7 +1772,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 826
+  m_VersionIndex: 835
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -1854,7 +1865,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!1 &2144082298992128852
@@ -2068,7 +2079,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 829
+  m_VersionIndex: 838
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -2161,7 +2172,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!1 &2144082299388823951
@@ -2582,7 +2593,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 1670
+  m_VersionIndex: 1679
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -2637,7 +2648,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 297adeda9eec8764b959cfb972e24f5c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2678,7 +2689,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!1 &2144082300154686916
