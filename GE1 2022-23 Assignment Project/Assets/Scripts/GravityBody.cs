@@ -10,9 +10,13 @@ public class GravityBody : MonoBehaviour
 
 
 
-    void Start()
+    void Awake()
     {
-        
+        if (attractor == null)
+        {
+            attractor = GameObject.Find("Planet").GetComponent<GravityAttractor>();
+        }
+
         GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
         GetComponent<Rigidbody>().useGravity = false;
         myTransform = transform;
