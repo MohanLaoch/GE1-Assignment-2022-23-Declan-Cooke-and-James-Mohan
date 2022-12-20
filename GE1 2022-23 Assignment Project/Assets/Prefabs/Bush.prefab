@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 6894772862923414088}
   - component: {fileID: 6894772862923414089}
   m_Layer: 0
-  m_Name: Berry (3)
+  m_Name: Berry4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -456,7 +456,7 @@ GameObject:
   - component: {fileID: 6894772863275407522}
   - component: {fileID: 6894772863275407523}
   m_Layer: 0
-  m_Name: Berry (2)
+  m_Name: Berry3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -636,7 +636,7 @@ GameObject:
   - component: {fileID: 6894772863485546423}
   - component: {fileID: 6894772863485546424}
   m_Layer: 0
-  m_Name: Berry (7)
+  m_Name: Berry8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -733,7 +733,7 @@ GameObject:
   - component: {fileID: 6894772863501153007}
   - component: {fileID: 6894772863501152976}
   m_Layer: 0
-  m_Name: Berry (4)
+  m_Name: Berry5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -826,6 +826,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6894772863501522373}
+  - component: {fileID: 628187712}
   m_Layer: 0
   m_Name: Bush
   m_TagString: Untagged
@@ -864,8 +865,38 @@ Transform:
   - {fileID: 6894772864792165173}
   - {fileID: 6894772864628834997}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &628187712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6894772863501522374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faf054593590c0b4a9803501640aa5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshRenderer:
+  - {fileID: 6894772863093232622}
+  - {fileID: 6894772863850781749}
+  - {fileID: 6894772863275407522}
+  - {fileID: 6894772862923414088}
+  - {fileID: 6894772863501153007}
+  - {fileID: 6894772863601919120}
+  - {fileID: 6894772864678986098}
+  - {fileID: 6894772863485546423}
+  - {fileID: 6894772864792165171}
+  - {fileID: 6894772864628834995}
+  lerpTime: 1
+  lerpColors:
+  - {r: 0.13318795, g: 0.58672947, b: 0.6886792, a: 0}
+  - {r: 0.11801354, g: 0.12500621, b: 0.6415094, a: 0}
+  - {r: 0.38120267, g: 0.10194911, b: 0.745283, a: 0}
+  - {r: 0.7924528, g: 0.09344961, b: 0.7432335, a: 0}
+  - {r: 0.09411762, g: 0.7921569, b: 0.6229382, a: 0}
 --- !u!1 &6894772863601919123
 GameObject:
   m_ObjectHideFlags: 0
@@ -879,7 +910,7 @@ GameObject:
   - component: {fileID: 6894772863601919120}
   - component: {fileID: 6894772863601919121}
   m_Layer: 0
-  m_Name: Berry (5)
+  m_Name: Berry6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1405,7 +1436,7 @@ GameObject:
   - component: {fileID: 6894772864628834995}
   - component: {fileID: 6894772864628834996}
   m_Layer: 0
-  m_Name: Berry (9)
+  m_Name: Berry10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1502,7 +1533,7 @@ GameObject:
   - component: {fileID: 6894772864678986098}
   - component: {fileID: 6894772864678986099}
   m_Layer: 0
-  m_Name: Berry (6)
+  m_Name: Berry7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1599,7 +1630,7 @@ GameObject:
   - component: {fileID: 6894772864792165171}
   - component: {fileID: 6894772864792165172}
   m_Layer: 0
-  m_Name: Berry (8)
+  m_Name: Berry9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

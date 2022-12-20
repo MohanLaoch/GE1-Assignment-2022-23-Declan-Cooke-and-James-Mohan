@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1780535687325060036}
   - component: {fileID: 1339120207281396130}
   m_Layer: 0
-  m_Name: Petal
+  m_Name: Petal3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1842,7 +1842,7 @@ GameObject:
   - component: {fileID: 5616501600721531085}
   - component: {fileID: 2675868446608962560}
   m_Layer: 0
-  m_Name: Petal
+  m_Name: Petal2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3669,7 +3669,7 @@ GameObject:
   - component: {fileID: 5052892795316217241}
   - component: {fileID: 1162228042567453850}
   m_Layer: 0
-  m_Name: Petal
+  m_Name: Petal1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5593,7 +5593,7 @@ GameObject:
   - component: {fileID: 69012219209413084}
   - component: {fileID: 7132679684210723402}
   m_Layer: 0
-  m_Name: Petal
+  m_Name: Petal8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7416,6 +7416,7 @@ GameObject:
   - component: {fileID: 7186681021915227054}
   - component: {fileID: 1160370135}
   - component: {fileID: 1160370133}
+  - component: {fileID: 7438116982649209051}
   m_Layer: 0
   m_Name: Flower
   m_TagString: Untagged
@@ -7446,7 +7447,7 @@ Transform:
   - {fileID: 655452150059257245}
   - {fileID: 5391953033937781147}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1160370135
 Rigidbody:
@@ -7477,6 +7478,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attractor: {fileID: 0}
+--- !u!114 &7438116982649209051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4114745452324518526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faf054593590c0b4a9803501640aa5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshRenderer:
+  - {fileID: 7477641190731111708}
+  - {fileID: 7904348785287265195}
+  - {fileID: 8379176504790598273}
+  - {fileID: 2975188351688723545}
+  - {fileID: 6266303751299397060}
+  - {fileID: 204546798403827260}
+  - {fileID: 618708596064098744}
+  - {fileID: 3834705325204040430}
+  lerpTime: 0.69
+  lerpColors:
+  - {r: 0.21787111, g: 0.9056604, b: 0.66055477, a: 0}
+  - {r: 0.21960784, g: 0.5915134, b: 0.90588236, a: 0}
+  - {r: 0.21960784, g: 0.2583653, b: 0.90588236, a: 0}
+  - {r: 0.37987685, g: 0.21960784, b: 0.90588236, a: 0}
+  - {r: 0.6254396, g: 0.21960784, b: 0.90588236, a: 0}
+  - {r: 0.90588236, g: 0.21960784, b: 0.9007149, a: 0}
+  - {r: 0.90588236, g: 0.21960784, b: 0.5008075, a: 0}
+  - {r: 0.90588236, g: 0.21960784, b: 0.36687097, a: 0}
 --- !u!1 &4597894721505232336
 GameObject:
   m_ObjectHideFlags: 0
@@ -7492,7 +7524,7 @@ GameObject:
   - component: {fileID: 8165974977000192422}
   - component: {fileID: 5529550166588884194}
   m_Layer: 0
-  m_Name: Petal
+  m_Name: Petal7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9319,7 +9351,7 @@ GameObject:
   - component: {fileID: 4604498365240538741}
   - component: {fileID: 8107755591169874113}
   m_Layer: 0
-  m_Name: Petal
+  m_Name: Petal5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11146,7 +11178,7 @@ GameObject:
   - component: {fileID: 8368265957843286443}
   - component: {fileID: 886676502796906615}
   m_Layer: 0
-  m_Name: Petal
+  m_Name: Petal6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18453,7 +18485,7 @@ GameObject:
   - component: {fileID: 5889322630246736846}
   - component: {fileID: 5321462121426454396}
   m_Layer: 0
-  m_Name: Petal
+  m_Name: Petal4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
