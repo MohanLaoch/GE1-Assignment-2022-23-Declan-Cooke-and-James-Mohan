@@ -20,6 +20,10 @@ public class GravityBody : MonoBehaviour
 
     void Update()
     {
-        attractor.Attract(myTransform);
+       
+        
+            attractor.Attract(myTransform);
+
+        
     }
 }
