@@ -7,7 +7,7 @@
 #### James Mohan | C20305011
 
 ### Video: 
-[![YouTube]](https://www.youtube.com/watch?v=U5bKkobRUcM)
+[![YouTube](https://i9.ytimg.com/vi_webp/U5bKkobRUcM/mq2.webp?sqp=CLTVi50G-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGBUgcigRMA8=&rs=AOn4CLCmuroVBNCoM5YEt-DprKGDch68OQ)](https://www.youtube.com/watch?v=U5bKkobRUcM)
 
 # Description of the Project
 Discover an entire planet through your fingertips! New-age technology allows us to examine infinite worlds with the press of a button. The Shrinkinator 5000 allows someone to shrink down to as small as they wish to view the world in a different perspective. What may seem like an ordinary golf ball can become an entire planet when one is shrunk down to the molecular level. In our project, you can experience this futuristic technology by shrinking down and exploring microscopic oddities not visible to the naked eye.  Once shrunk down, the environment around you will react to the music. Enjoy the vast colourful landscape of these "planets" and vibe to the cool tunes!
